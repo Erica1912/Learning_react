@@ -10,16 +10,16 @@ ___TEMAS___
 **DOM Virtual**
   - El Virtual DOM es una representación del DOM guardada en memoria, que actúa de intermediario entre los estados de la aplicación y los estados del DOM (vistos por el usuario). Cuando ocurre un cambio en la aplicación web, el virtual DOM interpreta dichos cambios y calcula la manera más eficiente de actualizar el DOM para que renderice la menor cantidad de cambios posibles.
   
-**Ciclo de vida **
+**Ciclo de vida**
 
-Es un proceso que React hace en cada componente, en algunos casos no podemos verlos como un bloque de código y en otros podemos llamarlos en nuestro componente para asignar una actividad según sea el caso necesario.
+- Es un proceso que React hace en cada componente, en algunos casos no podemos verlos como un bloque de código y en otros podemos llamarlos en nuestro componente para asignar una actividad según sea el caso necesario.
 
-Los componentes en react pasan por un Montaje, Actualización, Desmontaje y Manejo de errores.
+  Los componentes en react pasan por un Montaje, Actualización, Desmontaje y Manejo de errores.
 
-Montaje:
-En esta fase nuestro componente se crea junto a la lógica y los componentes internos y luego es insertado en el DOM.
+- Montaje:
+  En esta fase nuestro componente se crea junto a la lógica y los componentes internos y luego es insertado en el DOM.
 
-Actualización:
+-Actualización:
 En esta fase nuestro componente está al pendiente de cambios que pueden venir a través de un cambio en “state” o “props” esto en consecuencia realizan una acción dentro de un componente.
 
 Desmontaje:
