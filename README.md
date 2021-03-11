@@ -17,23 +17,21 @@ ___TEMAS___
 
 - Los componentes en react pasan por un Montaje, Actualización, Desmontaje y Manejo de errores.
 
-     Montaje: En esta fase nuestro componente se crea junto a la lógica y los componentes internos y luego es insertado en el DOM.
-     Actualización: En esta fase nuestro componente está al pendiente de cambios que pueden venir a través de un cambio en “state” o “props” esto en consecuencia realizan 
-                    una acción dentro de un componente.
-     Desmontaje: En esta etapa nuestro componente “Muere” cuando nosotros no necesitamos un elemento de nuestra aplicación, podemos pasar por este ciclo de vida y de esta 
-                 forma eliminar el componente de la representación que tiene en el DOM.
+    * * Montaje: * * En esta fase nuestro componente se crea junto a la lógica y los componentes internos y luego es insertado en el DOM.
+     
+    * * Actualización: * * En esta fase nuestro componente está al pendiente de cambios que pueden venir a través de un cambio en “state” o “props” 
+                        esto en consecuencia realizan una acción dentro de un componente.
+                        
+    * * Desmontaje: En esta etapa nuestro componente “Muere” cuando nosotros no necesitamos un elemento de nuestra aplicación, podemos pasar por este ciclo de vida y de esta 
+                    forma eliminar el componente de la representación que tiene en el DOM.
 
-Manejo de Errores:
-Cuando nuestro código se ejecuta y tiene un error, podemos entrar en una fase donde se puede entender mejor qué está sucediendo con la aplicación.
+    * * Manejo de Errores: * * Cuando nuestro código se ejecuta y tiene un error, podemos entrar en una fase donde se puede entender mejor qué está sucediendo con la aplicación.
 
 Algo que debemos tener en cuenta es que un componente NO debe pasar por toda las fases, un componente puede ser montado y desmontado sin pasar por la fase de actualización o manejo de errores.
 
 Ahora que entendemos las fases que cumple el ciclo de vida en React vamos a entrar a detalle en cada uno de ellos para ver qué piezas de código se ejecutan y nos ayudarán a crear aplicaciones en React pasando por un ciclo de vida bien estructurado.
 
-Montado:
-Constructor()
-
-Este es el primer método al que se hace un llamado, aquí es donde se inicializan los métodos controladores, eventos del estado.
+      * * Montado: * * Constructor() Este es el primer método al que se hace un llamado, aquí es donde se inicializan los métodos controladores, eventos del estado.
 
 getDerivedStateFromProps()
 
