@@ -69,3 +69,6 @@ ___TEMAS___
     las interacciones que necesitemos.
 
 
+**Las Props**
+- Son la forma de enviar y recibir información en nuestros componentes. Son la forma de comunicar cada componente con el resto de la aplicación. 
+  Son muy parecidas a los   parámetros y argumentos de las funciones en cualquier lenguaje de programación.
