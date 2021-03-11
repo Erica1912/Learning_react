@@ -17,9 +17,9 @@ ___TEMAS___
 
 - Los componentes en react pasan por un Montaje, Actualización, Desmontaje y Manejo de errores.
 
-    * *Montaje:* * En esta fase nuestro componente se crea junto a la lógica y los componentes internos y luego es insertado en el DOM.
+    *Montaje:* En esta fase nuestro componente se crea junto a la lógica y los componentes internos y luego es insertado en el DOM.
      
-    * *Actualización:* * En esta fase nuestro componente está al pendiente de cambios que pueden venir a través de un cambio en “state” o “props” 
+    *Actualización:* En esta fase nuestro componente está al pendiente de cambios que pueden venir a través de un cambio en “state” o “props” 
                         esto en consecuencia realizan una acción dentro de un componente.
                         
     * *Desmontaje:En esta etapa nuestro componente “Muere” cuando nosotros no necesitamos un elemento de nuestra aplicación, podemos pasar por este ciclo de vida y de esta 
